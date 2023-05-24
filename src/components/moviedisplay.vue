@@ -13,7 +13,7 @@ const mvn = async () => {
   movieData.value = (
     await axios.get("https://api.themoviedb.org/3/search/movie", {
       params: {
-        api_key: "8b8aa8dc742d970de5a5240a62f689d8",
+        api_key: "7f54447bdb40934992e1a1ea74a43b9a",
         include_adult: "false",
         query: data,
       },
@@ -26,7 +26,7 @@ trailers.value.push(
   (
     await axios.get(`https://api.themoviedb.org/3/movie/${movieData.id}`, {
       params: {
-        api_key: "8b8aa8dc742d970de5a5240a62f689d8",
+        api_key: "7f54447bdb40934992e1a1ea74a43b9a",
         append_to_response: "videos",
       },
     })
