@@ -38,7 +38,7 @@ trailers.value.push(
 </script>
 
 <template>
-  <label id="Header">T M B D</label>
+  <label id="Header">T M D B</label>
 
   <div class="moviecontainer">
    <div class="selector">
@@ -123,11 +123,11 @@ trailers.value.push(
   }
 
   div{
-    background-color:blanchedalmond;
+    background-color:#888;
   }
   
   body {
-    background-color:blanchedalmond;
+    background-color:#888;
     margin-left:40px;
   }
 

@@ -15,7 +15,7 @@ import {ref} from "vue";
 
 <style scoped>
 .app-container{
-  background-color:blanchedalmond;
+  background-color:#888;
   margin-left:0px;
   margin-right:0px;
   height:1000px;
